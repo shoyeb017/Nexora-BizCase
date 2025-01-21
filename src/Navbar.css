@@ -1,0 +1,72 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+    background-color: #3b9de8; /* Default Blue for Learner */
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-content h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar .nav-links li {
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-links li:hover {
+    color: #ffd700;
+  }
+  
+  .switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Styling for Learner and Management Navbar */
+  .navbar.learner {
+    background-color: #3b9de8; /* Blue for Learner */
+  }
+  
+  .navbar.management {
+    background-color: #4caf50; 
+  }
+  
+  /* react-toggle custom styles */
+  .react-toggle {
+    margin: 0;
+  }
+  
+  /* .react-toggle--checked {
+    background-color: #4caf50 
+  }
+  
+  .react-toggle--checked .react-toggle-track {
+    background-color: #4caf50 !important;
+  }
+   */
+  /* .react-toggle--checked .react-toggle-thumb {
+    transform: translateX(20px);
+  } */
+  
+  .react-toggle-track {
+    background-color: #ccc !important;
+  }
+  
+  .react-toggle-thumb {
+    background-color: white !important;
+  }
+  
