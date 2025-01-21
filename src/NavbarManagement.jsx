@@ -14,7 +14,7 @@ function NavbarManagement({ toggleMode }) {
         </ul>
       </div>
       <div className="switch">
-        <span>Switch to Learner</span>
+        {/* <span>Switch to Learner</span> */}
         <Toggle defaultChecked={true} icons={false} onChange={toggleMode} />
       </div>
     </nav>
