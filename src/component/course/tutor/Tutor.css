@@ -1,0 +1,62 @@
+.tutor-container {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #0a192f;
+    color: white;
+    min-height: 100vh;
+
+    padding-top: 100px;
+  }
+  
+  .tutor-content {
+    width: 80%;
+    max-width: 800px;
+    background: #112240;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .step-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step-controls button {
+    padding: 10px 20px;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .step-controls button:disabled {
+    background-color: #1d1f2a;
+    cursor: not-allowed;
+  }
+  
+  .step-controls button:hover:not(:disabled) {
+    background-color: #2563eb;
+  }
+  
+  .summary {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  
+  .avatar-preview {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    object-fit: contain;
+  }

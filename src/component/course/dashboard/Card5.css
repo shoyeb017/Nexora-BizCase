@@ -1,0 +1,82 @@
+.card-container {
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #1e293b; /* Dark background */
+    color: #f1f5f9; /* Light text */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .view-all-button {
+    background-color: #3b82f6; /* Bright blue button */
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-all-button:hover {
+    background-color: #2563eb; /* Darker blue */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #334155; /* Lighter dark background for task items */
+    transition: transform 0.2s ease;
+  }
+  
+  .task-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .icon-container {
+    font-size: 24px;
+    color: #3b82f6; /* Blue for icons */
+    margin-right: 15px;
+  }
+  
+  .task-details {
+    flex-grow: 1;
+  }
+  
+  .task-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f1f5f9; /* Light text */
+  }
+  
+  .days-remaining {
+    font-size: 14px;
+    color: #94a3b8; /* Muted text */
+  }
+  
+  .arrow-icon {
+    font-size: 20px;
+    color: #3b82f6;
+  }
+  

@@ -1,0 +1,140 @@
+.port7-container {
+    padding: 20px;
+    background-color: #1b263b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .port7-title {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #a8dadc;
+  }
+  
+  .port7-feedback {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.423);
+  }
+
+  .port7-feedback2 {
+    text-align: left;
+    font-size: 10px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.525);
+  }
+  
+  .port7-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    border-left: 2px solid white;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    color: #a8dadc;
+  }
+  
+  .port7-recommendation-section,
+  .port7-job-section {
+    margin-bottom: 40px;
+  }
+  
+  .port7-recommendation-list,
+  .port7-job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .port7-recommendation-card,
+  .port7-job-card {
+    background-color: #2a3b57;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    text-align: center;
+  }
+  
+  .port7-recommendation-card h4,
+  .port7-job-card h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .port7-recommendation-card p,
+  .port7-job-card p {
+    font-size: 14px;
+    color: #a8dadc;
+  }
+  
+  .port7-icon {
+    font-size: 24px;
+    color: #457b9d;
+    margin-bottom: 10px;
+  }
+  
+  .port7-progress-bar {
+    width: 100%;
+    background-color: #457b9d;
+    border-radius: 5px;
+    height: 10px;
+    margin: 10px 0;
+  }
+  
+  .port7-progress {
+    height: 100%;
+    background-color: #1d3557;
+    border-radius: 5px;
+  }
+  
+  .port7-progress-text {
+    font-size: 14px;
+    color: #a8dadc;
+  }
+  
+  .port7-job-apply-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .port7-job-apply-btn:hover {
+    background-color: #1d3557;
+  }
+  
+  .port7-download-button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 25px;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .port7-download-button:hover {
+    background-color: #1d3557;
+  }
+  
+
+  /* Hover effect for recommendation and job cards */
+.port7-recommendation-card:hover,
+.port7-job-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

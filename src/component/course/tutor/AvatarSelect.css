@@ -1,0 +1,51 @@
+.avatar-select {
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .avatars-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .avatar-card {
+    background-color: #193360;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .avatar-card.selected {
+    border-color: #1d4ed8;
+    transform: scale(1.05);
+  }
+  
+.avatar-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+  
+  h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #9ca3af;
+  }
+  

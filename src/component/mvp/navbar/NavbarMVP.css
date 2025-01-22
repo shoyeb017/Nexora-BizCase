@@ -1,0 +1,112 @@
+/* General navbar styles */
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  right: 20px;
+  padding: 15px;
+  background: transparent;
+  z-index: 100;
+
+}
+
+.navbar1-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1b263b;
+  z-index: -1;
+  width: 1283px;
+  height: 70px;
+}
+
+.navbar1-logo {
+ width: 60px;
+}
+
+.navbar1-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar1-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar1-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.navbar1-button:hover {
+  color: #a8dadc;
+}
+
+/* Dropdown wrapper styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-overlay {
+  position: fixed; /* Fix it relative to the viewport */
+  top: 50px; /* Adjust as needed based on navbar height */
+  left: 50%; /* Start from the center horizontally */
+  transform: translateX(-50%); /* Center the overlay horizontally */
+  width: 90vw; /* Almost full width, adjust as needed */
+  max-width: 1200px; /* Optional: Limit the width for large screens */
+  background-color: transparent;
+  padding: 20px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 50;
+  animation: dropdown-slide 0.3s ease-out;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.dropdown.active .dropdown-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Dropdown animation */
+@keyframes dropdown-slide {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+
+/* Switch styles */
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.switch-title1 {
+  font-size: 14px;
+  color: white;
+}
+
+.switch-title2 {
+  font-weight: bold;
+  color: #a8dadc;
+}

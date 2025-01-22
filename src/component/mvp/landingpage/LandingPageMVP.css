@@ -1,0 +1,211 @@
+.mvp-hero-upper {
+  background: url('../../../assets/mvp_background.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+.mvp-hero-upper-image {
+  width: 80px;
+
+}
+
+.mvp-hero-upper-content-upper {
+
+  display: flex;
+  flex-direction: space-between;
+  gap: 1000px;
+
+  padding: 30px 0px 0px 30px;
+}
+
+.mvp-hero-upper-content-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 100px 30px 0px 30px;
+
+}
+
+.mvp-hero-upper-content-lower-left {
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+
+  max-width: 450px;
+}
+
+.mvp-hero-upper-content-lower-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+
+}
+
+.mvp-hero-upper-title {
+  font-size: 38px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 0;
+  line-height: 1.2;
+  /* Adjust the line-height to make space between lines smaller */
+}
+
+.mvp-hero-upper-highlight {
+  color: white;
+}
+
+.mvp-hero-upper-description {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.806);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+
+}
+
+
+
+.mvp-hero-upper-actions {
+  margin-top: 20px;
+}
+
+
+.mvp-hero-upper-actions-start-btn {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+
+  text-decoration: none;
+  padding: 10px 13px;
+
+  border: 2px solid white;
+  border-radius: 3px;
+
+  background-color: transparent;
+}
+
+.mvp-hero-upper-actions-start-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.mvp-hero-upper-actions-link {
+  text-decoration: none;
+}
+
+/* From Uiverse.io by abrahamcalsin */
+.mvp-hero-upper-actions-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+.mvp-hero-upper-actions-btn:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: white;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.mvp-hero-upper-actions-btn:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.mvp-hero-upper-actions-btn span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.mvp-hero-upper-actions-btn:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.mvp-hero-upper-content-lower-right-video1 {
+  height: 160px;
+  object-fit: cover;
+  opacity: 0.5;
+
+  margin-right: 60px;
+}
+
+.mvp-hero-upper-content-lower-right-video2 {
+  height: 150px;
+  object-fit: cover;
+  opacity: 0.5;
+
+  margin-left: 150px;
+}
+
+
+.mvp-hero-upper-content-lower-right-video-title1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+
+  margin-left: 62px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+
+}
+
+.mvp-hero-upper-content-lower-right-video-title2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  margin-left: 220px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  opacity: 0.8;
+}

@@ -1,0 +1,143 @@
+.port3-container {
+
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1b263b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.port3-container-label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #a8dadc;
+}
+
+
+.port3-container-search-section {
+    position: relative;
+    /* Ensures overlay is positioned relative to this container */
+    margin-bottom: 20px;
+}
+
+.port3-container-search-section [type="text"] {
+    width: 97%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a3b57;
+    color: #ffffff;
+}
+
+.port3-container-search-results {
+    position: absolute;
+    /* Makes it an overlay */
+    top: 100%;
+    /* Places it just below the input field */
+    left: 0;
+    width: 100%;
+    /* Matches the width of the input field */
+    max-height: 120px;
+    overflow-y: auto;
+    /* Adds a scrollbar if content overflows */
+    background-color: #2a3b57;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    /* Ensures it appears above other elements */
+}
+
+.port3-container-result-item {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #3b4b6b;
+    color: #ffffff;
+}
+
+.port3-container-result-item:hover {
+    background-color: #457b9d;
+}
+
+.port3-container-selected-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.port3-container-tag {
+    background-color: #457b9d;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.port3-container-tag:hover {
+    background-color: #1d3557;
+    cursor: pointer;
+}
+
+.port3-container-job-types {
+    margin-bottom: 20px;
+}
+
+.port3-container-type-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.port3-container-job-type-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #457b9d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.port3-container-job-type-button.selected {
+    background-color: #4fd1c5;
+}
+
+
+
+
+.port3-container-thoughts-section {
+    margin-top:40px;
+}
+
+.port3-container-thoughts-h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.port3-container-thoughts-p {
+    color: #a8dadc;
+    font-size: 11px;
+    margin: 0;
+
+    margin-top: 2px;
+    margin-bottom: 10px;
+ }
+
+.port3-container-thoughts-section textarea {
+    width: 97%;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a3b57;
+    color: #ffffff;
+    resize: none;
+}

@@ -1,0 +1,74 @@
+.dropcard2-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #1b263b;
+    color: #ffffff;
+  }
+  
+  .dropcard2-overview {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .dropcard2-overview h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .dropcard2-overview p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .dropcard2-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #3a3a3a;
+    color: #d1d1d1;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dropcard2-button:hover {
+    background-color: #5a5a5a;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropcard2-arrow {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .dropcard2-services {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+  }
+  
+  .dropcard2-services ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+  }
+  
+  .dropcard2-services li {
+    font-size: 16px;
+    line-height: 2;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .dropcard2-services li:hover {
+    color: #c7c7c7;
+    text-decoration: underline;
+  }
+  

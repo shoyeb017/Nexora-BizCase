@@ -1,0 +1,175 @@
+
+/* pro2 */
+.pro2-container {
+
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1b263b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content:flex-start;
+    gap: 20px;
+
+  }
+  
+  .pro2-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .pro2-section1 {
+    margin-bottom: 20px;
+
+    width: 40%;
+
+    
+  }
+
+  .pro2-section2 {
+    margin-bottom: 20px;
+    width: 60%;
+
+    border-left:2px solid #cccccc3f;
+    padding-left: 20px;
+  }
+  
+  .pro2-subtitle {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #a8dadc;
+  }
+  
+  .pro2-skill-slot,
+  .pro2-cert-slot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pro2-input,
+  .pro2-textarea {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a3b57;
+    color: #ffffff;
+  }
+  
+  .pro2-textarea {
+    resize: none;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .pro2-proficiency {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .pro2-proficiency-icon {
+    font-size: 18px;
+    color: #bbb;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .pro2-proficiency-icon.selected {
+    color: #4fd1c5;
+  }
+  
+  .pro2-file-upload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pro2-upload-icon {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .pro2-input-file {
+    display: none; /* Hide the default file input */
+  }
+  
+  .custom-file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #457b9d; /* Default background color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+  }
+  
+  .custom-file-label:hover {
+    background-color: #1f3e75; /* Hover background color */
+    transform: scale(1.05);
+  }
+  
+  .custom-file-label:active {
+    background-color: #1b3c8e; /* Active background color */
+    transform: scale(1);
+  }
+  
+  
+
+  .pro2-add-btn {
+    background-color: #457b9d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pro2-remove-btn,
+  .pro2-submit-btn {
+    background-color: #1f3e75;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pro2-add-btn:hover,
+  .pro2-remove-btn:hover,
+  .pro2-submit-btn:hover {
+    background-color: #28529a;
+  }
+  
+  .pro2-remove-btn {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .pro2-remove-btn:hover {
+    background-color: #b21f2d;
+  }
+  
+  .pro2-submit-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  

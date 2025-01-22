@@ -1,0 +1,109 @@
+/* Experience Collection Container */
+.experience-collection {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1b263b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Heading */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #64ffda;
+    font-size: 24px;
+  }
+  
+  /* Experience Form */
+  .experience-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .experience-form input,
+  .experience-form textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #2a3b57;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .experience-form input::placeholder,
+  .experience-form textarea::placeholder {
+    color: #8a9ba8;
+  }
+  
+  .experience-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .experience-form button:hover {
+    background-color: #5faddd;
+    transform: scale(1.05);
+  }
+  
+  /* Experience List */
+  .experience-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Experience Card */
+  .experience-card {
+    padding: 20px;
+    background-color: #2a3b57;;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .experience-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #64ffda;
+  }
+  
+  .experience-card p {
+    font-size: 14px;
+    color: #d1d5db;
+    margin-bottom: 10px;
+  }
+  
+  .experience-card a {
+    font-size: 12px;
+    color: #64ffda;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  
+  .experience-card a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,28 @@
+.graph-card {
+    background-color: #1e293b;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .graph-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .graph-container {
+    position: relative;
+    height: 200px;
+  }
+  
+  .total-hours {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .total-hours strong {
+    color: #00bfff;
+  }
+  

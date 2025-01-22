@@ -1,0 +1,77 @@
+/* Overall container styling */
+.dropcard3-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #1b263b;
+    color: #ffffff;
+  }
+  
+  /* Overview section styling */
+  .dropcard3-overview {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .dropcard3-overview h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .dropcard3-overview p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .dropcard3-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #3a3a3a;
+    color: #d1d1d1;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dropcard3-button:hover {
+    background-color: #5a5a5a;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropcard3-arrow {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  /* Links section styling */
+  .dropcard3-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+  }
+  
+  .dropcard3-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+  }
+  
+  .dropcard3-links li {
+    font-size: 16px;
+    line-height: 2;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .dropcard3-links li:hover {
+    color: #c7c7c7;
+    text-decoration: underline;
+  }
+  
