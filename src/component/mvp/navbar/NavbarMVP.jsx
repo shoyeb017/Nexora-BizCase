@@ -20,7 +20,7 @@ function NavbarMVP({ toggleMode }) {
         <img src={nexora_logo} alt="Logo" className="navbar1-logo" />
       </div>
 
-      {!hideButtons && <div className="navbar1-background"></div>}
+      {/* {!hideButtons && <div className="navbar1-background"></div>} */}
 
       <div className="navbar1-right">
         {!hideButtons && (
